@@ -1,0 +1,217 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* header and navigation */
+header {
+  width: 100%;
+  height: 45px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 0.5px #e2e2e2;
+  background-color: #ffffff;
+}
+
+.css-1fe7a5q {
+  height: 16px;
+  width: 16px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav > * {
+  margin-left: 10px;
+}
+
+nav i {
+  height: 16px;
+}
+
+nav h2 {
+  font-size: 14px;
+}
+.subscribe {
+  margin-right: 25px;
+}
+
+.subscribe button {
+  background-color: rgb(86, 123, 149);
+  padding: 11px 12px 8px;
+  font-size: 11px;
+  border: 1px solid rgb(50, 104, 145);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 11px;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
+/* main */
+
+main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article h1 {
+  margin-top: 40px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 40px;
+  width: 100%;
+  max-width: 600px;
+  padding-bottom: 15px;
+  border-bottom: solid 0.5px #e2e2e2;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icons i {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 55%;
+  padding: 8px;
+  background-color: #eeeeee;
+}
+
+.article img {
+  margin-top: 20px;
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  color: #666666;
+  font-size: 15px;
+  max-width: 1000px;
+}
+
+.main-text {
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.main-text span {
+  font-weight: bolder;
+}
+
+.main-text p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.theory {
+  max-width: 950px;
+  margin-top: 30px;
+}
+
+.theory h4 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.theory span {
+  display: block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.info {
+  position: relative;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.description {
+  position: absolute;
+  width: 228px;
+}
+
+.figphoto {
+  font-size: 14px;
+}
+
+iframe {
+  max-width: 600px;
+  width: 100%;
+}
+
+.image2 {
+  max-width: 600px;
+  width: 100%;
+}
+
+footer {
+  padding-bottom: 30px;
+}
+
+footer img {
+  height: 30px;
+}
+
+/* footer */
+
+.footer-container {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 1200px;
+}
+
+footer::before {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: '';
+  display: block;
+  height: 1px;
+  margin-top: 0;
+}
+
+.grid-fotter {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-item-footer h3 {
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.grid-item-footer p {
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: 100;
+}
